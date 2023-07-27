@@ -1,0 +1,23 @@
+project_plottype_plotname_profiler(s)
+
+plotnames:
+
+histogram_rboComparingProfilersForUnionMethods - distribution of rbo values (comparing method rankings) computed among all pairs of repeat runs of profiler1 and profiler2
+histogram_rboComparingProfilersForIntersectionMethods - as above, but with rankings filtered to only methods appearing in every repeat run of profiler
+histogram_rboComparingProfilersForMedianMethods - as above, but with rankings filtered to only methods appearing in at least half of the repeats run of profiler
+
+histogram_rboWithinRepeatsForUnionMethods - distribution of rbo values (comparing method rankings) computed among all pairs of repeat runs of profiler
+histogram_rboWithinRepeatsForIntersectionMethods - as above, but with rankings filtered to only methods appearing in every repeat run of profiler
+histogram_rboWithinRepeatsForMedianMethodsHPROF - as above, but with rankings filtered to only methods appearing in at least half of the repeats run of profiler
+
+histogram_methodCounts - frequency of individual method appearances across all repeat runs of profiler
+
+scatter_meanRanksIntersection - mean ranks of methods appearing in all runs of first profiler vs their rank according to second profiler
+scatter_meanRanksMedian - as above, but mean ranks of methods appearing in at least half of all runs of first profiler
+scatter_top10MeanRanksMedian - as above but limited to the top 10 (might be fewer than 10 points because not all methods ranked by first profiler were also ranked by second)
+scatter_top30MeanRanksMedian - as above but limited to the top 30
+
+histogram_testCountsForMethodX - frequency of individual test appearances among tests identified for method ranked X
+
+
+All other stats appear in project_profiler1vsprofiler2.txt
