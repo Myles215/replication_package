@@ -1,0 +1,36 @@
+Number of methods appearing in union  MemoryJFR17  list: 333
+Number of methods appearing in union  MemoryJFR9  list: 352
+Number of methods appearing in median  MemoryJFR17  list: 114
+Number of methods appearing in median  MemoryJFR9  list: 132
+
+Number of methods appearing in median  MemoryJFR17  list but not  MemoryJFR9 : 19 16.7 %
+Number of methods appearing in median  MemoryJFR9  list but not  MemoryJFR17 : 37 28.0 %
+Number of methods appearing in both median  MemoryJFR17  list and  MemoryJFR9 : 95
+
+Number of methods appearing in intersection  MemoryJFR17  list: 51
+Number of methods appearing in intersection  MemoryJFR9  list: 55
+
+Number of methods appearing in intersection  MemoryJFR17  list but not  MemoryJFR9 : 6 11.8 %
+Number of methods appearing in intersection  MemoryJFR9  list but not  MemoryJFR17 : 10 18.2 %
+Number of methods appearing in both intersection  MemoryJFR17  list and  MemoryJFR9 : 45
+
+RBO within union rank lists for  MemoryJFR17 ... median:  0.871  IQR: 0.042
+RBO within union rank lists for  MemoryJFR9 ... median:  0.911  IQR: 0.031
+RBO comparing union rank lists  MemoryJFR17  vs  MemoryJFR9 ... median:  0.844  IQR: 0.044
+RBO within median rank lists for  MemoryJFR17 ... median:  0.871  IQR: 0.042
+RBO within median rank lists for  MemoryJFR9 ... median:  0.911  IQR: 0.031
+RBO comparing median rank lists  MemoryJFR17  vs  MemoryJFR9 ... median:  0.844  IQR: 0.044
+RBO within intersection rank lists for  MemoryJFR17 ... median:  0.874  IQR: 0.042
+RBO within intersection rank lists for  MemoryJFR9 ... median:  0.915  IQR: 0.031
+RBO comparing intersection rank lists  MemoryJFR17  vs  MemoryJFR9 ... median:  0.846  IQR: 0.042
+Spearman correlation average ranks unions  MemoryJFR17  vs  MemoryJFR9 : SpearmanrResult(correlation=0.7921353471797284, pvalue=4.1062398607450836e-58)
+Spearman correlation top30 average ranks unions  MemoryJFR17  vs  MemoryJFR9 : SpearmanrResult(correlation=0.699365275487516, pvalue=0.0001001697333705883)
+Spearman correlation average ranks medians  MemoryJFR17  vs  MemoryJFR9 : SpearmanrResult(correlation=0.8760686602641986, pvalue=3.2479387641057203e-31)
+Spearman correlation top30 average ranks medians  MemoryJFR17  vs  MemoryJFR9 : SpearmanrResult(correlation=0.699365275487516, pvalue=0.0001001697333705883)
+Spearman correlation average ranks intersection  MemoryJFR17  vs  MemoryJFR9 : SpearmanrResult(correlation=0.8064696779419274, pvalue=2.2803865132759137e-11)
+Spearman correlation top30 average ranks medians  MemoryJFR17  vs  MemoryJFR9 : SpearmanrResult(correlation=0.7449193306903642, pvalue=3.572059229830255e-06)
+
+test appearance counts for  MemoryJFR17 ... median:  4.0  IQR: 5.0  Mean: 5.78
+test appearance counts for  MemoryJFR9 ... median:  3.0  IQR: 7.0  Mean: 5.65
+max test appearance counts for  MemoryJFR17 ... median:  20  IQR: 4.0
+max test appearance counts for  MemoryJFR9 ... median:  20  IQR: 3.0

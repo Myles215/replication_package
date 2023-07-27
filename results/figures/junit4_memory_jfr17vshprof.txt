@@ -1,0 +1,36 @@
+Number of methods appearing in union  MemoryJFR17  list: 212
+Number of methods appearing in union  MemoryHPROF  list: 58
+Number of methods appearing in median  MemoryJFR17  list: 95
+Number of methods appearing in median  MemoryHPROF  list: 28
+
+Number of methods appearing in median  MemoryJFR17  list but not  MemoryHPROF : 73 76.8 %
+Number of methods appearing in median  MemoryHPROF  list but not  MemoryJFR17 : 6 21.4 %
+Number of methods appearing in both median  MemoryJFR17  list and  MemoryHPROF : 22
+
+Number of methods appearing in intersection  MemoryJFR17  list: 50
+Number of methods appearing in intersection  MemoryHPROF  list: 14
+
+Number of methods appearing in intersection  MemoryJFR17  list but not  MemoryHPROF : 39 78.0 %
+Number of methods appearing in intersection  MemoryHPROF  list but not  MemoryJFR17 : 3 21.4 %
+Number of methods appearing in both intersection  MemoryJFR17  list and  MemoryHPROF : 11
+
+RBO within union rank lists for  MemoryJFR17 ... median:  0.893  IQR: 0.025
+RBO within union rank lists for  MemoryHPROF ... median:  0.908  IQR: 0.021
+RBO comparing union rank lists  MemoryJFR17  vs  MemoryHPROF ... median:  0.52  IQR: 0.035
+RBO within median rank lists for  MemoryJFR17 ... median:  0.893  IQR: 0.025
+RBO within median rank lists for  MemoryHPROF ... median:  0.923  IQR: 0.024
+RBO comparing median rank lists  MemoryJFR17  vs  MemoryHPROF ... median:  0.516  IQR: 0.036
+RBO within intersection rank lists for  MemoryJFR17 ... median:  0.895  IQR: 0.025
+RBO within intersection rank lists for  MemoryHPROF ... median:  0.962  IQR: 0.022
+RBO comparing intersection rank lists  MemoryJFR17  vs  MemoryHPROF ... median:  0.516  IQR: 0.035
+Spearman correlation average ranks unions  MemoryJFR17  vs  MemoryHPROF : SpearmanrResult(correlation=0.5381756600539934, pvalue=2.2567984611520896e-05)
+Spearman correlation top30 average ranks unions  MemoryJFR17  vs  MemoryHPROF : SpearmanrResult(correlation=0.6936679098694974, pvalue=0.0028793372740635085)
+Spearman correlation average ranks medians  MemoryJFR17  vs  MemoryHPROF : SpearmanrResult(correlation=0.7715334958889821, pvalue=2.616813051348029e-05)
+Spearman correlation top30 average ranks medians  MemoryJFR17  vs  MemoryHPROF : SpearmanrResult(correlation=0.3939393939393939, pvalue=0.25999776683488757)
+Spearman correlation average ranks intersection  MemoryJFR17  vs  MemoryHPROF : SpearmanrResult(correlation=0.19090909090909092, pvalue=0.5739131682855215)
+Spearman correlation top30 average ranks medians  MemoryJFR17  vs  MemoryHPROF : SpearmanrResult(correlation=0.16666666666666669, pvalue=0.668231040071504)
+
+test appearance counts for  MemoryJFR17 ... median:  2  IQR: 2.0  Mean: 2.71
+test appearance counts for  MemoryHPROF ... median:  4  IQR: 7.0  Mean: 5.69
+max test appearance counts for  MemoryJFR17 ... median:  17  IQR: 13.0
+max test appearance counts for  MemoryHPROF ... median:  16  IQR: 9.0

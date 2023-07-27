@@ -1,0 +1,36 @@
+Number of methods appearing in union  HPROF_CPU  list: 56
+Number of methods appearing in union  HPROF_MEM  list: 2
+Number of methods appearing in median  HPROF_CPU  list: 5
+Number of methods appearing in median  HPROF_MEM  list: 2
+
+Number of methods appearing in median  HPROF_CPU  list but not  HPROF_MEM : 3 60.0 %
+Number of methods appearing in median  HPROF_MEM  list but not  HPROF_CPU : 0 0.0 %
+Number of methods appearing in both median  HPROF_CPU  list and  HPROF_MEM : 2
+
+Number of methods appearing in intersection  HPROF_CPU  list: 3
+Number of methods appearing in intersection  HPROF_MEM  list: 2
+
+Number of methods appearing in intersection  HPROF_CPU  list but not  HPROF_MEM : 2 66.7 %
+Number of methods appearing in intersection  HPROF_MEM  list but not  HPROF_CPU : 1 50.0 %
+Number of methods appearing in both intersection  HPROF_CPU  list and  HPROF_MEM : 1
+
+RBO within union rank lists for  HPROF_CPU ... median:  0.662  IQR: 0.104
+RBO within union rank lists for  HPROF_MEM ... median:  1.0  IQR: 0.0
+RBO comparing union rank lists  HPROF_CPU  vs  HPROF_MEM ... median:  0.22  IQR: 0.05
+RBO within median rank lists for  HPROF_CPU ... median:  0.982  IQR: 0.149
+RBO within median rank lists for  HPROF_MEM ... median:  1.0  IQR: 0.0
+RBO comparing median rank lists  HPROF_CPU  vs  HPROF_MEM ... median:  0.353  IQR: 0.018
+RBO within intersection rank lists for  HPROF_CPU ... median:  1.0  IQR: 0.0
+RBO within intersection rank lists for  HPROF_MEM ... median:  1.0  IQR: 0.0
+RBO comparing intersection rank lists  HPROF_CPU  vs  HPROF_MEM ... median:  0.315  IQR: 0.0
+Spearman correlation average ranks unions  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=-0.9999999999999999, pvalue=nan)
+Spearman correlation top30 average ranks unions  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=-0.9999999999999999, pvalue=nan)
+Spearman correlation average ranks medians  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=-0.9999999999999999, pvalue=nan)
+Spearman correlation top30 average ranks medians  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=-0.9999999999999999, pvalue=nan)
+Spearman correlation average ranks intersection  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=nan, pvalue=nan)
+Spearman correlation top30 average ranks medians  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=nan, pvalue=nan)
+
+test appearance counts for  HPROF_CPU ... median:  5.0  IQR: 3.25  Mean: 5.97
+test appearance counts for  HPROF_MEM ... median:  6.0  IQR: 2.0  Mean: 5.92
+max test appearance counts for  HPROF_CPU ... median:  11  IQR: 0.0
+max test appearance counts for  HPROF_MEM ... median:  9  IQR: 0.0

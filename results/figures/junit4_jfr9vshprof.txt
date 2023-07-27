@@ -1,0 +1,36 @@
+Number of methods appearing in union  JFR9  list: 285
+Number of methods appearing in union  HPROF  list: 470
+Number of methods appearing in median  JFR9  list: 102
+Number of methods appearing in median  HPROF  list: 154
+
+Number of methods appearing in median  JFR9  list but not  HPROF : 22 21.6 %
+Number of methods appearing in median  HPROF  list but not  JFR9 : 74 48.1 %
+Number of methods appearing in both median  JFR9  list and  HPROF : 80
+
+Number of methods appearing in intersection  JFR9  list: 49
+Number of methods appearing in intersection  HPROF  list: 53
+
+Number of methods appearing in intersection  JFR9  list but not  HPROF : 25 51.0 %
+Number of methods appearing in intersection  HPROF  list but not  JFR9 : 29 54.7 %
+Number of methods appearing in both intersection  JFR9  list and  HPROF : 24
+
+RBO within union rank lists for  JFR9 ... median:  0.899  IQR: 0.03
+RBO within union rank lists for  HPROF ... median:  0.892  IQR: 0.031
+RBO comparing union rank lists  JFR9  vs  HPROF ... median:  0.21  IQR: 0.029
+RBO within median rank lists for  JFR9 ... median:  0.899  IQR: 0.03
+RBO within median rank lists for  HPROF ... median:  0.892  IQR: 0.031
+RBO comparing median rank lists  JFR9  vs  HPROF ... median:  0.21  IQR: 0.029
+RBO within intersection rank lists for  JFR9 ... median:  0.907  IQR: 0.03
+RBO within intersection rank lists for  HPROF ... median:  0.896  IQR: 0.031
+RBO comparing intersection rank lists  JFR9  vs  HPROF ... median:  0.21  IQR: 0.028
+Spearman correlation average ranks unions  JFR9  vs  HPROF : SpearmanrResult(correlation=0.6701385813723039, pvalue=2.933317490302479e-35)
+Spearman correlation top30 average ranks unions  JFR9  vs  HPROF : SpearmanrResult(correlation=-0.14846153846153848, pvalue=0.4787936059036386)
+Spearman correlation average ranks medians  JFR9  vs  HPROF : SpearmanrResult(correlation=0.4564724359691368, pvalue=2.0838255418210514e-05)
+Spearman correlation top30 average ranks medians  JFR9  vs  HPROF : SpearmanrResult(correlation=-0.03952569169960475, pvalue=0.8578929386002241)
+Spearman correlation average ranks intersection  JFR9  vs  HPROF : SpearmanrResult(correlation=0.328695652173913, pvalue=0.11682275058870725)
+Spearman correlation top30 average ranks medians  JFR9  vs  HPROF : SpearmanrResult(correlation=0.2058823529411765, pvalue=0.4279148531427077)
+
+test appearance counts for  JFR9 ... median:  1.0  IQR: 2.0  Mean: 2.54
+test appearance counts for  HPROF ... median:  1.0  IQR: 1.0  Mean: 1.65
+max test appearance counts for  JFR9 ... median:  3.0  IQR: 2.0
+max test appearance counts for  HPROF ... median:  3.0  IQR: 2.25
