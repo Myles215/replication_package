@@ -1,0 +1,36 @@
+Number of methods appearing in union  JFR17  list: 311
+Number of methods appearing in union  HPROF  list: 470
+Number of methods appearing in median  JFR17  list: 105
+Number of methods appearing in median  HPROF  list: 154
+
+Number of methods appearing in median  JFR17  list but not  HPROF : 20 19.0 %
+Number of methods appearing in median  HPROF  list but not  JFR17 : 69 44.8 %
+Number of methods appearing in both median  JFR17  list and  HPROF : 85
+
+Number of methods appearing in intersection  JFR17  list: 50
+Number of methods appearing in intersection  HPROF  list: 53
+
+Number of methods appearing in intersection  JFR17  list but not  HPROF : 23 46.0 %
+Number of methods appearing in intersection  HPROF  list but not  JFR17 : 26 49.1 %
+Number of methods appearing in both intersection  JFR17  list and  HPROF : 27
+
+RBO within union rank lists for  JFR17 ... median:  0.914  IQR: 0.081
+RBO within union rank lists for  HPROF ... median:  0.892  IQR: 0.031
+RBO comparing union rank lists  JFR17  vs  HPROF ... median:  0.203  IQR: 0.024
+RBO within median rank lists for  JFR17 ... median:  0.914  IQR: 0.081
+RBO within median rank lists for  HPROF ... median:  0.892  IQR: 0.031
+RBO comparing median rank lists  JFR17  vs  HPROF ... median:  0.203  IQR: 0.024
+RBO within intersection rank lists for  JFR17 ... median:  0.919  IQR: 0.082
+RBO within intersection rank lists for  HPROF ... median:  0.896  IQR: 0.031
+RBO comparing intersection rank lists  JFR17  vs  HPROF ... median:  0.203  IQR: 0.023
+Spearman correlation average ranks unions  JFR17  vs  HPROF : SpearmanrResult(correlation=0.6800766051612814, pvalue=4.350095823947962e-39)
+Spearman correlation top30 average ranks unions  JFR17  vs  HPROF : SpearmanrResult(correlation=-0.05538461538461539, pvalue=0.7925912249870333)
+Spearman correlation average ranks medians  JFR17  vs  HPROF : SpearmanrResult(correlation=0.4737490106411046, pvalue=4.660707356804756e-06)
+Spearman correlation top30 average ranks medians  JFR17  vs  HPROF : SpearmanrResult(correlation=0.10225563909774435, pvalue=0.66793535735332)
+Spearman correlation average ranks intersection  JFR17  vs  HPROF : SpearmanrResult(correlation=0.28942146574414124, pvalue=0.1431210465324989)
+Spearman correlation top30 average ranks medians  JFR17  vs  HPROF : SpearmanrResult(correlation=0.032352941176470584, pvalue=0.9053195187918449)
+
+test appearance counts for  JFR17 ... median:  1  IQR: 1.0  Mean: 1.72
+test appearance counts for  HPROF ... median:  1.0  IQR: 1.0  Mean: 1.62
+max test appearance counts for  JFR17 ... median:  3  IQR: 1.5
+max test appearance counts for  HPROF ... median:  3  IQR: 2.0
