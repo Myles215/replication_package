@@ -3,7 +3,7 @@ Data and processing scripts for the paper "Comparing Apples and Oranges? The Inf
 Each project was run by cloning the relevant branch of Gin (as specified in the paper), and running the profiler in a shell script along these lines:
 projectnameforgin='disruptor'
 
-    for i in {1..30}
+    for i in {1..20}
     do
        java -Dtinylog.level=trace -cp ../../../gin-jdk9/gin/build/gin.jar gin.util.Profiler -r 1 -h ~/.sdkman/candidates/maven/current/ -p $projectnameforgin -d . -v 4.10.2 -o $projectnameforgin.Profiler_output_$i.csv  &> $projectnameforgin.Profiler_stdoutstderr_$i.txt
        # or for memory:
