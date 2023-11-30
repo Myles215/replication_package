@@ -1,4 +1,4 @@
-project_plottype_plotname_profiler(s)
+project_plottype_plotname_profiler(s)_{CPU,MEM}
 
 plotnames:
 
