@@ -1,0 +1,36 @@
+Number of methods appearing in union  JFR8_Memory  list: 50
+Number of methods appearing in union  JFR9_Memory  list: 127
+Number of methods appearing in median  JFR8_Memory  list: 32
+Number of methods appearing in median  JFR9_Memory  list: 79
+
+Number of methods appearing in median  JFR8_Memory  list but not  JFR9_Memory : 9 28.1 %
+Number of methods appearing in median  JFR9_Memory  list but not  JFR8_Memory : 56 70.9 %
+Number of methods appearing in both median  JFR8_Memory  list and  JFR9_Memory : 23
+
+Number of methods appearing in intersection  JFR8_Memory  list: 20
+Number of methods appearing in intersection  JFR9_Memory  list: 46
+
+Number of methods appearing in intersection  JFR8_Memory  list but not  JFR9_Memory : 7 35.0 %
+Number of methods appearing in intersection  JFR9_Memory  list but not  JFR8_Memory : 33 71.7 %
+Number of methods appearing in both intersection  JFR8_Memory  list and  JFR9_Memory : 13
+
+RBO within union rank lists for  JFR8_Memory ... median:  0.95  IQR: 0.026
+RBO within union rank lists for  JFR9_Memory ... median:  0.981  IQR: 0.02
+RBO comparing union rank lists  JFR8_Memory  vs  JFR9_Memory ... median:  0.464  IQR: 0.007
+RBO within median rank lists for  JFR8_Memory ... median:  0.958  IQR: 0.026
+RBO within median rank lists for  JFR9_Memory ... median:  0.981  IQR: 0.02
+RBO comparing median rank lists  JFR8_Memory  vs  JFR9_Memory ... median:  0.466  IQR: 0.007
+RBO within intersection rank lists for  JFR8_Memory ... median:  0.969  IQR: 0.027
+RBO within intersection rank lists for  JFR9_Memory ... median:  0.984  IQR: 0.021
+RBO comparing intersection rank lists  JFR8_Memory  vs  JFR9_Memory ... median:  0.456  IQR: 0.006
+Spearman correlation average ranks unions  JFR8_Memory  vs  JFR9_Memory : SignificanceResult(statistic=0.5182072829131653, pvalue=0.00142869784368541)
+Spearman correlation top30 average ranks unions  JFR8_Memory  vs  JFR9_Memory : SignificanceResult(statistic=0.6358870967741936, pvalue=0.00012084618906177042)
+Spearman correlation average ranks medians  JFR8_Memory  vs  JFR9_Memory : SignificanceResult(statistic=0.6561264822134387, pvalue=0.0006745601460454635)
+Spearman correlation top30 average ranks medians  JFR8_Memory  vs  JFR9_Memory : SignificanceResult(statistic=0.6561264822134387, pvalue=0.0006745601460454635)
+Spearman correlation average ranks intersection  JFR8_Memory  vs  JFR9_Memory : SignificanceResult(statistic=0.901098901098901, pvalue=2.613862202954826e-05)
+Spearman correlation top30 average ranks medians  JFR8_Memory  vs  JFR9_Memory : SignificanceResult(statistic=0.901098901098901, pvalue=2.613862202954826e-05)
+
+test appearance counts for  JFR8_Memory ... median:  20.0  IQR: 10.0  Mean: 15.4
+test appearance counts for  JFR9_Memory ... median:  20.0  IQR: 0.0  Mean: 17.06
+max test appearance counts for  JFR8_Memory ... median:  20  IQR: 0.0
+max test appearance counts for  JFR9_Memory ... median:  20  IQR: 0.0

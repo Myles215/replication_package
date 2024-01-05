@@ -1,0 +1,36 @@
+Number of methods appearing in union  JFR8_CPU  list: 94
+Number of methods appearing in union  JFR9_CPU  list: 109
+Number of methods appearing in median  JFR8_CPU  list: 27
+Number of methods appearing in median  JFR9_CPU  list: 27
+
+Number of methods appearing in median  JFR8_CPU  list but not  JFR9_CPU : 3 11.1 %
+Number of methods appearing in median  JFR9_CPU  list but not  JFR8_CPU : 3 11.1 %
+Number of methods appearing in both median  JFR8_CPU  list and  JFR9_CPU : 24
+
+Number of methods appearing in intersection  JFR8_CPU  list: 5
+Number of methods appearing in intersection  JFR9_CPU  list: 4
+
+Number of methods appearing in intersection  JFR8_CPU  list but not  JFR9_CPU : 4 80.0 %
+Number of methods appearing in intersection  JFR9_CPU  list but not  JFR8_CPU : 3 75.0 %
+Number of methods appearing in both intersection  JFR8_CPU  list and  JFR9_CPU : 1
+
+RBO within union rank lists for  JFR8_CPU ... median:  0.446  IQR: 0.133
+RBO within union rank lists for  JFR9_CPU ... median:  0.697  IQR: 0.078
+RBO comparing union rank lists  JFR8_CPU  vs  JFR9_CPU ... median:  0.32  IQR: 0.086
+RBO within median rank lists for  JFR8_CPU ... median:  0.495  IQR: 0.126
+RBO within median rank lists for  JFR9_CPU ... median:  0.734  IQR: 0.069
+RBO comparing median rank lists  JFR8_CPU  vs  JFR9_CPU ... median:  0.353  IQR: 0.083
+RBO within intersection rank lists for  JFR8_CPU ... median:  0.828  IQR: 0.1
+RBO within intersection rank lists for  JFR9_CPU ... median:  0.973  IQR: 0.045
+RBO comparing intersection rank lists  JFR8_CPU  vs  JFR9_CPU ... median:  0.149  IQR: 0.0
+Spearman correlation average ranks unions  JFR8_CPU  vs  JFR9_CPU : SignificanceResult(statistic=0.8221804121420425, pvalue=2.720091508390742e-19)
+Spearman correlation top30 average ranks unions  JFR8_CPU  vs  JFR9_CPU : SignificanceResult(statistic=0.8221804121420425, pvalue=2.720091508390742e-19)
+Spearman correlation average ranks medians  JFR8_CPU  vs  JFR9_CPU : SignificanceResult(statistic=0.6269565217391303, pvalue=0.00104321480961748)
+Spearman correlation top30 average ranks medians  JFR8_CPU  vs  JFR9_CPU : SignificanceResult(statistic=0.6269565217391303, pvalue=0.00104321480961748)
+Spearman correlation average ranks intersection  JFR8_CPU  vs  JFR9_CPU : SignificanceResult(statistic=nan, pvalue=nan)
+Spearman correlation top30 average ranks medians  JFR8_CPU  vs  JFR9_CPU : SignificanceResult(statistic=nan, pvalue=nan)
+
+test appearance counts for  JFR8_CPU ... median:  1  IQR: 0.0  Mean: 1.23
+test appearance counts for  JFR9_CPU ... median:  1.0  IQR: 0.0  Mean: 1.04
+max test appearance counts for  JFR8_CPU ... median:  3  IQR: 0.0
+max test appearance counts for  JFR9_CPU ... median:  2  IQR: 0.0

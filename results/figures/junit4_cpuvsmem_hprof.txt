@@ -1,36 +1,36 @@
 Number of methods appearing in union  HPROF_CPU  list: 470
-Number of methods appearing in union  HPROF_MEM  list: 58
+Number of methods appearing in union  HPROF_Memory  list: 58
 Number of methods appearing in median  HPROF_CPU  list: 154
-Number of methods appearing in median  HPROF_MEM  list: 28
+Number of methods appearing in median  HPROF_Memory  list: 28
 
-Number of methods appearing in median  HPROF_CPU  list but not  HPROF_MEM : 134 87.0 %
-Number of methods appearing in median  HPROF_MEM  list but not  HPROF_CPU : 8 28.6 %
-Number of methods appearing in both median  HPROF_CPU  list and  HPROF_MEM : 20
+Number of methods appearing in median  HPROF_CPU  list but not  HPROF_Memory : 134 87.0 %
+Number of methods appearing in median  HPROF_Memory  list but not  HPROF_CPU : 8 28.6 %
+Number of methods appearing in both median  HPROF_CPU  list and  HPROF_Memory : 20
 
 Number of methods appearing in intersection  HPROF_CPU  list: 53
-Number of methods appearing in intersection  HPROF_MEM  list: 14
+Number of methods appearing in intersection  HPROF_Memory  list: 14
 
-Number of methods appearing in intersection  HPROF_CPU  list but not  HPROF_MEM : 47 88.7 %
-Number of methods appearing in intersection  HPROF_MEM  list but not  HPROF_CPU : 8 57.1 %
-Number of methods appearing in both intersection  HPROF_CPU  list and  HPROF_MEM : 6
+Number of methods appearing in intersection  HPROF_CPU  list but not  HPROF_Memory : 47 88.7 %
+Number of methods appearing in intersection  HPROF_Memory  list but not  HPROF_CPU : 8 57.1 %
+Number of methods appearing in both intersection  HPROF_CPU  list and  HPROF_Memory : 6
 
 RBO within union rank lists for  HPROF_CPU ... median:  0.892  IQR: 0.031
-RBO within union rank lists for  HPROF_MEM ... median:  0.908  IQR: 0.021
-RBO comparing union rank lists  HPROF_CPU  vs  HPROF_MEM ... median:  0.217  IQR: 0.017
+RBO within union rank lists for  HPROF_Memory ... median:  0.908  IQR: 0.021
+RBO comparing union rank lists  HPROF_CPU  vs  HPROF_Memory ... median:  0.217  IQR: 0.017
 RBO within median rank lists for  HPROF_CPU ... median:  0.892  IQR: 0.031
-RBO within median rank lists for  HPROF_MEM ... median:  0.923  IQR: 0.024
-RBO comparing median rank lists  HPROF_CPU  vs  HPROF_MEM ... median:  0.217  IQR: 0.018
+RBO within median rank lists for  HPROF_Memory ... median:  0.923  IQR: 0.024
+RBO comparing median rank lists  HPROF_CPU  vs  HPROF_Memory ... median:  0.217  IQR: 0.018
 RBO within intersection rank lists for  HPROF_CPU ... median:  0.896  IQR: 0.031
-RBO within intersection rank lists for  HPROF_MEM ... median:  0.962  IQR: 0.022
-RBO comparing intersection rank lists  HPROF_CPU  vs  HPROF_MEM ... median:  0.21  IQR: 0.017
-Spearman correlation average ranks unions  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=0.3169684195012547, pvalue=0.0162903083538199)
-Spearman correlation top30 average ranks unions  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=0.6071428571428572, pvalue=0.1482311614811614)
-Spearman correlation average ranks medians  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=0.6240601503759398, pvalue=0.003274107236830618)
-Spearman correlation top30 average ranks medians  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=0.5428571428571429, pvalue=0.26570262390670557)
-Spearman correlation average ranks intersection  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=0.6, pvalue=0.20799999999999982)
-Spearman correlation top30 average ranks medians  HPROF_CPU  vs  HPROF_MEM : SpearmanrResult(correlation=0.3, pvalue=0.6238376647810728)
+RBO within intersection rank lists for  HPROF_Memory ... median:  0.962  IQR: 0.022
+RBO comparing intersection rank lists  HPROF_CPU  vs  HPROF_Memory ... median:  0.21  IQR: 0.017
+Spearman correlation average ranks unions  HPROF_CPU  vs  HPROF_Memory : SignificanceResult(statistic=0.3169684195012547, pvalue=0.0162903083538199)
+Spearman correlation top30 average ranks unions  HPROF_CPU  vs  HPROF_Memory : SignificanceResult(statistic=0.6071428571428572, pvalue=0.1482311614811614)
+Spearman correlation average ranks medians  HPROF_CPU  vs  HPROF_Memory : SignificanceResult(statistic=0.6240601503759398, pvalue=0.003274107236830618)
+Spearman correlation top30 average ranks medians  HPROF_CPU  vs  HPROF_Memory : SignificanceResult(statistic=0.5428571428571429, pvalue=0.26570262390670557)
+Spearman correlation average ranks intersection  HPROF_CPU  vs  HPROF_Memory : SignificanceResult(statistic=0.6, pvalue=0.20799999999999982)
+Spearman correlation top30 average ranks medians  HPROF_CPU  vs  HPROF_Memory : SignificanceResult(statistic=0.3, pvalue=0.6238376647810728)
 
 test appearance counts for  HPROF_CPU ... median:  1  IQR: 1.0  Mean: 1.61
-test appearance counts for  HPROF_MEM ... median:  4  IQR: 7.0  Mean: 5.64
+test appearance counts for  HPROF_Memory ... median:  4  IQR: 7.0  Mean: 5.64
 max test appearance counts for  HPROF_CPU ... median:  4.0  IQR: 1.5
-max test appearance counts for  HPROF_MEM ... median:  14.5  IQR: 11.25
+max test appearance counts for  HPROF_Memory ... median:  14.5  IQR: 11.25
